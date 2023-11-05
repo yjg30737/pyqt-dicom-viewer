@@ -26,3 +26,6 @@ Such as CT, MRI. That monochrome frames in the computer of the doctor's office y
 ## Preview
 ![image](https://github.com/yjg30737/pyqt-dicom-viewer/assets/55078043/65ef86d0-9f28-4169-ab16-7793e1cabd1d)
 
+## TODO
+* extract the metadata (e.g. patient information)
+
