@@ -25,17 +25,6 @@ QCoreApplication.setAttribute(Qt.AA_UseHighDpiPixmaps)  # HighDPI support
 QApplication.setFont(QFont('Arial', 12))
 
 
-class Thread(QThread):
-    def __init__(self):
-        super(Thread, self).__init__()
-
-    def run(self):
-        try:
-            pass
-        except Exception as e:
-            raise Exception(e)
-
-
 class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()

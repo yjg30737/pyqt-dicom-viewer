@@ -1,4 +1,2 @@
 PyQt5>=5.14
 pydicom
-openslide-python
-pillow
