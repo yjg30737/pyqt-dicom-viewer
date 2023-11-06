@@ -28,5 +28,3 @@ Such as CT, MRI. That monochrome frames in the computer of the doctor's office y
 
 ## TODO
 * extract the metadata (e.g. patient information)
-* support WSI(Whole Slide Images)
-
