@@ -28,3 +28,6 @@ Such as CT, MRI. That monochrome frames in the computer of the doctor's office y
 
 ## TODO
 * extract the metadata (e.g. patient information)
+
+## See Also
+<a href="https://github.com/yjg30737/pyqt-wsi-viewer.git">pyqt-wsi-viewer</a>
