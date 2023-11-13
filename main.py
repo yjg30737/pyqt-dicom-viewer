@@ -3,7 +3,7 @@ import sys
 
 from dicomImageView import DicomImageViewer
 from findPathWidget import FindPathWidget
-from script import get_tiled_dicom_images_in_directory
+from script import get_dicom_images_in_dir
 
 # Get the absolute path of the current script file
 script_path = os.path.abspath(__file__)
@@ -66,7 +66,7 @@ class MainWindow(QMainWindow):
         
     def __addToList(self, dirname):
         self.__listWidget.clear()
-        self.__dicom_arr = get_tiled_dicom_images_in_directory(dirname)
+        self.__dicom_arr = get_dicom_images_in_dir(dirname)
         filenames = [_['filename'] for _ in self.__dicom_arr]
         self.__listWidget.addItems(filenames)
         f = self.__listWidget.count() > 0
