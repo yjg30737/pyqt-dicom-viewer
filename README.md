@@ -24,10 +24,11 @@ Such as CT, MRI. That monochrome frames in the computer of the doctor's office y
 3. python main.py
 
 ## Preview
-![image](https://github.com/yjg30737/pyqt-dicom-viewer/assets/55078043/65ef86d0-9f28-4169-ab16-7793e1cabd1d)
+![image](https://github.com/yjg30737/pyqt-dicom-viewer/assets/55078043/bde7393f-bd91-4dd4-8a3a-af7252e12c69)
 
 ## TODO
-* extract the metadata (e.g. patient information)
+* toggle the visibility of metadata
+* applying image segmentation (try even if it is inaccurate)
 
 ## See Also
 <a href="https://github.com/yjg30737/pyqt-wsi-viewer.git">pyqt-wsi-viewer</a>
